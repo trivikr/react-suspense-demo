@@ -7,7 +7,7 @@ const App = () => (
     <Menu pageWrapId="App-content" outerContainerId="App" />
     <div className="App-content">
       <header className="App-header" />
-      <div className="App-Content" />
+      <div className="App-Content">Nothing to see here</div>
       <footer className="App-footer" />
     </div>
   </div>
