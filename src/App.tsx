@@ -1,21 +1,15 @@
 import React from "react";
 import "./App.css";
+import Menu from "./Menu";
 
 const App = () => (
   <div className="App">
-    <header className="App-header">
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
+    <Menu pageWrapId="App-content" outerContainerId="App" />
+    <div className="App-content">
+      <header className="App-header" />
+      <div className="App-Content" />
+      <footer className="App-footer" />
+    </div>
   </div>
 );
 
