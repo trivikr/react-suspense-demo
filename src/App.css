@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-menu-loading {
@@ -15,10 +16,34 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-content {
-  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.App-title {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.App-images-loading {
+  height: 350px;
+  background-color: #282c34;
+}
+
+.App-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  height: 200px;
+}
+
+.App-image-container img {
+  max-height: 100%;
+  max-width: 100%;
 }
