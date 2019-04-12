@@ -10,7 +10,7 @@ const App = () => {
     const randomNum = Math.floor(Math.random() * 100);
     return {
       large: `https://picsum.photos/1920/1080/?image=${randomNum}`,
-      small: `https://picsum.photos/200/113/?image=${randomNum}`
+      small: `https://picsum.photos/192/108/?image=${randomNum}`
     };
   });
   return (
@@ -24,6 +24,7 @@ const App = () => {
       <div className="App-content">
         <div className="App-title">Product Title</div>
         <ImageWrapper small={images[0].small} large={images[0].large} />
+        <div className="App-description">Product description</div>
       </div>
       <div className="App-footer" />
     </div>
