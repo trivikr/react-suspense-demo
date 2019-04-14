@@ -24,6 +24,7 @@ const App = () => {
       <div className="App-content">
         <div className="App-title">Product Title</div>
         <ImageWrapper small={images[0].small} large={images[0].large} />
+        <div className="App-description">Product description</div>
       </div>
       <div className="App-footer" />
     </div>
