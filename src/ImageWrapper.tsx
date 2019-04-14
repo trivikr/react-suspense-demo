@@ -1,7 +1,8 @@
 import React, { Suspense } from "react";
+import MenuLoading from "./MenuLoading.svg";
 import ImageContainer from "./ImageContainer";
 
-const Image = React.lazy(() => import("./Image"));
+const Img = React.lazy(() => import("./Img"));
 
 const ImageWrapper: React.FC<{ large: string; small: string }> = props => (
   <Suspense
@@ -12,7 +13,7 @@ const ImageWrapper: React.FC<{ large: string; small: string }> = props => (
     }
   >
     <ImageContainer>
-      <Image src={props.large} />
+      <Img src={props.large} />
     </ImageContainer>
   </Suspense>
 );
