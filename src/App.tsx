@@ -11,7 +11,7 @@ const App = () => (
     </Suspense>
     <div className="App-content">
       <header className="App-header" />
-      <div className="App-Content">Nothing to see here</div>
+      <div className="App-Content">↖ Menu is loading lazily</div>
       <footer className="App-footer" />
     </div>
   </div>
