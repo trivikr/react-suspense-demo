@@ -7,7 +7,7 @@ const App = () => (
     <Menu pageWrapId="App-content" outerContainerId="App" />
     <div className="App-content">
       <header className="App-header" />
-      <div className="App-Content">Nothing to see here</div>
+      <div className="App-Content">↖ Menu is loading with the page</div>
       <footer className="App-footer" />
     </div>
   </div>
